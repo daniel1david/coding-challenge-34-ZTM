@@ -1,2 +1,2 @@
 # coding-challenge-34-ZTM
-My contribution to coding challenge 43
+My contribution to coding challenge 34
