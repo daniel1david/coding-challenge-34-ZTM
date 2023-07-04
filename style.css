@@ -1,0 +1,122 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("bg-img.jpg");
+}
+
+.section {
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	height: 300px;
+	border-radius: 3%;
+	margin: 5px auto;
+	border: solid black 1px;
+	background-image: linear-gradient(to bottom left, #407A9F, #6398BB, #6398BB, #407A9F);
+}
+
+h2, p {
+	display: flex;
+	justify-content: center;
+	margin: 1rem;
+}
+
+.sec1 {
+	z-index: 9;
+	cursor: pointer;
+}
+.sec1.flip {
+	z-index: 0;
+}
+
+.sec2 {
+	z-index: 8;
+	cursor: pointer;
+}
+.sec2.flip {
+	z-index: 1;
+}
+
+.sec3 {
+	z-index: 7;
+	cursor: pointer;
+}
+.sec3.flip {
+	z-index: 2;
+}
+
+.sec4 {
+	z-index: 6;
+	cursor: pointer;
+}
+.sec4.flip {
+	z-index: 3;
+}
+
+.sec5 {
+	z-index: 5;
+	cursor: pointer;
+}
+.sec5.flip {
+	z-index: 4;
+}
+
+.sec6 {
+	z-index: 4;
+	cursor: pointer;
+}
+.sec6.flip {
+	z-index: 5;
+}
+
+.sec7 {
+	z-index: 3;
+	cursor: pointer;
+}
+.sec7.flip {
+	z-index: 6;
+}
+
+.sec8 {
+	z-index: 2;
+	cursor: pointer;
+}
+.sec8.flip {
+	z-index: 7;
+}
+
+.sec9 {
+	z-index: 1;
+	cursor: pointer;
+}
+.sec9.flip {
+	z-index: 8;
+}
+
+.sec10 {
+	z-index: 0;
+	cursor: pointer;
+}
+.sec10.flip {
+	z-index: 9;
+}
+
+.sec-grid {
+	position: absolute;
+	transition: transform 1s;
+}
+
+.sec-grid.flip {
+	transform: translate(-250px, 50px);
+}
+
+.card-face {
+	width: 100%;
+	height: 100%;
+	display: inline-grid;
+	align-content: start;
+	background-image: linear-gradient(to bottom left, #407A9F, #6398BB, #6398BB, #407A9F);
+}
